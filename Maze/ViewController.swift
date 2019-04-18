@@ -97,6 +97,7 @@ class ViewController: UIViewController {
                 self.gameCheck("clear",message: "クリアしました！")
                 return
             }
+        }
                 self.playerView.center = CGPoint(x: posX, y: posY)
                 
             }
